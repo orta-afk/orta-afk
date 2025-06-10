@@ -1,4 +1,4 @@
-# wsp fine shyt 😋😻💦
+# Ni hao [fine shyt](https://media.tenor.com/CSXh3aYb_Z4AAAAM/%E1%97%9C%CB%AC%E1%97%9C-rizz.gif) 😋😻💦
 
 Umm, I don't know what to write here or how to, but yeah... Yo, it’s me, **orta-afk**! 🐈‍⬛😈  
 I love **low-level stuff**, and currently learning **C** and **C++**, and I’m *freakin’ obsessed* with it. 💻🧑‍💻  
@@ -12,18 +12,12 @@ Nothin’ slaps harder than my laptop makin’ **jet noises** when it’s goin�
 - *Her* 💔  
 
 **Things I Like**: 😍🔥  
-- *200lbs goth girls* 🖤😘  
+- *200lbs goth girl* 🖤😘  
 - *Anime waifuuu* 🌸😻  
-- *Osaka things* 🍙🏯  
 - *Hatsune Miku* 🎤💙  
-- *Bikes* 🏍️💨  
 - *Gun sounds* 🔫💥  
 - *Engine sounds* 🚗🔊  
-- *Arch Linux* 🐧💻  
 - *Your mom* 😏😎  
-- *No mosquitos* 🚫🦟  
-- *Good chess games* ♟️🏆  
-- *Chess* 👑♕  
 
 **More About me**: 🖤🌑  
 I talk a lotta shit, and I’m mostly **depressed** ‘cause of overthinking and some other reasons. Yeah, fuvk that. 🥀😪  
@@ -39,6 +33,6 @@ If you’re here reviewing my profile for some reason and thinking *“what the 
 ## A Quote I Wrote When She Dipped 💭  
 _At the end I am all alone again and i knew it from the start but ig that’s how life works you lose one you get one in return so I am not sad about it_ 😿💔╮(＾▽＾)╭  
 
-[Osaka being freaky](https://media.tenor.com/CSXh3aYb_Z4AAAAM/%E1%97%9C%CB%AC%E1%97%9C-rizz.gif)
+[definitely not a Rickroll](https://media.tenor.com/Tc-TUkHTki4AAAAM/rick-roll.gif)
 
 **now get outta here** 😜🔥😻
