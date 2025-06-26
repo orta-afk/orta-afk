@@ -1,38 +1,35 @@
-# Ni hao [fine shyt](https://media.tenor.com/CSXh3aYb_Z4AAAAM/%E1%97%9C%CB%AC%E1%97%9C-rizz.gif) 😋😻💦
+<table style="border: none; border-collapse: collapse;">
+  <tr>
+    <td style="border: none;" width="260" align="center">
+      <img src="pngegg.png" alt="lain" width="240">
+    </td>
+    <td style="border: none; padding-left: 20px; vertical-align: top;">
 
-Umm, I don't know what to write here or how to, but yeah... Yo, it’s me, **orta-afk**! 🐈‍⬛😈  
-I love **low-level stuff**, and currently learning **C** and **C++**, and I’m *freakin’ obsessed* with it. 💻🧑‍💻  
-Nothin’ slaps harder than my laptop makin’ **jet noises** when it’s goin’ full beast mode. 🥵🔥😾✈️  
+<pre>
+--------     Ni hao fine shyt
+Username:    orta-afk
+User:        kaido 
+OS:          Arch Linux
+Editor:      Helix
+Languages:   C, C++
+Title:       game developer, systems programmer
+Extra:       Art, musics, Games, anime, chess
+Dream:       live in japan
+Status:      fucked
 
-**Things I Hate**: 🤢🤮😤  
-- *Mosquitos* 🦟  
-- *Linking libraries* 📚💥  
-- *Bad chess games* ♟️😑  
-- *Arrogant kids* 😒🙄  
-- *Her* 💔  
+Contact:
+  Discord:   orat12
+  Email:     darkkboy0012@gmail.com
+  Chess:     chalbay12 (1000+ elo)
+  itch.io    https://orta-afk.itch.io/
+--------     Now get out of here
+</pre>
 
-**Things I Like**: 😍🔥  
-- *200lbs goth girl* 🖤😘  
-- *Anime waifuuu* 🌸😻  
-- *Hatsune Miku* 🎤💙  
-- *Gun sounds* 🔫💥  
-- *Engine sounds* 🚗🔊  
-- *Your mom* 😏😎  
-
-**More About me**: 🖤🌑  
-I talk a lotta shit, and I’m mostly **depressed** ‘cause of overthinking and some other reasons. Yeah, fuvk that. 🥀😪  
-
-**Note**: 📝😜  
-If you’re here reviewing my profile for some reason and thinking *“what the fuck is this person?”*, this ain’t for that. 😎🤷‍♂️  
-
-## Wanna Contact Me? 📲💬  
-- **Discord**: orta12 🗣️🎮  
-- **Email**: darkkboy0012@gmail.com *(don’t expect a fast reply, lol)* 📧😴  
-- **Chess.com**: chalbay12 ♟️🔥 (let’s throw hands on the board, bet you ain’t ready).  
-
-## A Quote I Wrote When She Dipped 💭  
-_At the end I am all alone again and i knew it from the start but ig that’s how life works you lose one you get one in return so I am not sad about it_ 😿💔╮(＾▽＾)╭  
-
-[definitely not a Rickroll](https://media.tenor.com/Tc-TUkHTki4AAAAM/rick-roll.gif)
-
-**now get outta here** 😜🔥😻
+    orta12
+    darkkboy0012@gmail.com
+    https://orta-afk.itch.io/
+    https://www.chess.com/member/chalbay12
+    
+    
+  </tr>
+</table>
