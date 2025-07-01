@@ -22,7 +22,7 @@ int main(){
             tspan.remove_child(child);
         }
 
-        tspan.append_child(pugi::node_pcdata).set_value((std::to_string(age) + " ala").c_str());
+        tspan.append_child(pugi::node_pcdata).set_value((std::to_string(age) + " Years").c_str());
         std::cout << "Updated: " << tspan.text().as_string() << "\n";
     }
   }
