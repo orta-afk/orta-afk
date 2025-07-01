@@ -22,13 +22,13 @@ int main(){
             tspan.remove_child(child);
         }
 
-        tspan.append_child(pugi::node_pcdata).set_value((std::to_string(age) + " years").c_str());
+        tspan.append_child(pugi::node_pcdata).set_value((std::to_string(age) + " ala").c_str());
         std::cout << "Updated: " << tspan.text().as_string() << "\n";
     }
   }
 
 
-  doc.save_file("../profile.svg");
+  doc.save_file("../profile.svg", PUGIXML_TEXT(""), pugi::format_no_declaration | pugi::format_raw);
   return 0;
 }
 
