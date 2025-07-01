@@ -50,7 +50,7 @@ text, tspan {white-space: pre;}
 		<tspan class="value">Android 14, Arch Linux</tspan>
 		<tspan x="390" y="70" class="cc">. </tspan>
 		<tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ........................ </tspan>
-		<tspan class="value" id="age_data" />
+		<tspan class="value" id="age_data">18 years</tspan>
 		<tspan x="390" y="90" class="cc">. </tspan>
 		<tspan class="key">Host</tspan>:<tspan class="cc"> .......................... </tspan>
 		<tspan class="value">Mom's Basement</tspan>

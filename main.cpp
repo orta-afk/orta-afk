@@ -15,17 +15,18 @@ int main(){
   auto asciiTextNode = rootNode.child("text");
   auto profileTextNode = asciiTextNode.next_sibling();
 
-  for (auto& textNode : profileTextNode.children()) {
-      auto uptime = textNode.find_child_by_attribute("id", "age_data");
-      if (uptime) {
-          for (auto child : uptime.children()) {
-              uptime.remove_child(child);
-          }
+  for (auto& tspan : profileTextNode.children("tspan")) {
+    auto idAttr = tspan.attribute("id");
+    if (idAttr && std::string(idAttr.value()) == "age_data") {
+        for (auto child : tspan.children()) {
+            tspan.remove_child(child);
+        }
 
-          uptime.append_child(pugi::node_pcdata).set_value((std::to_string(age) + " years").c_str());
-          std::cout << uptime.text().as_string();
-      }
+        tspan.append_child(pugi::node_pcdata).set_value((std::to_string(age) + " years").c_str());
+        std::cout << "Updated: " << tspan.text().as_string() << "\n";
+    }
   }
+
 
   doc.save_file("../profile.svg");
   return 0;
