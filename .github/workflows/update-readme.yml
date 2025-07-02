@@ -1,5 +1,7 @@
 name: Update SVG Profile
 
+permissions:
+  contents: write
 on:
   schedule:
     - cron: '0 * * * *'  # every hour
