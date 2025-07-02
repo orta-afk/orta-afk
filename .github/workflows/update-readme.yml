@@ -1,20 +1,14 @@
 name: Update SVG Profile
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-  USERNAME: ${{ secrets.USERNAME }}
-
 on:
   schedule:
-    - cron: '0 * * * *' 
+    - cron: '0 * * * *'  # every hour
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      USERNAME: ${{ secrets.USERNAME }}
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -28,12 +22,15 @@ jobs:
         run: pip install requests lxml python-dotenv python-dateutil
 
       - name: Run the updater script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}  # or use secrets.GITHUB_TOKEN if not using a PAT
+          USERNAME: ${{ secrets.USERNAME }}
         run: python main.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add .
+          git add profile.svg
           git commit -m "Update SVG" || echo "No changes to commit"
           git push
