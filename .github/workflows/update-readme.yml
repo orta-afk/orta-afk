@@ -1,34 +1,39 @@
-name: Update README
+name: Update SVG Profile
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+  USERNAME: ${{ secrets.USERNAME }}
 
 on:
   schedule:
-    - cron: "0 * * * *" 
+    - cron: '0 * * * *' 
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      USERNAME: ${{ secrets.USERNAME }}
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
       - name: Install dependencies
-        run: sudo apt update && sudo apt install -y cmake g++
+        run: pip install requests lxml python-dotenv python-dateutil
 
-      - name: Configure CMake
-        run: cmake -S . -B build
+      - name: Run the updater script
+        run: python main.py
 
-      - name: Build
-        run: cmake --build build
-
-      - name: Run SVG Updater
-        run: ./build/README
-
-      - name: Commit & Push changes
+      - name: Commit and push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add *.svg
-          git commit -m "🧠 auto: update stats svg"
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add .
+          git commit -m "Update SVG" || echo "No changes to commit"
           git push
